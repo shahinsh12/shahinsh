@@ -1,0 +1,78 @@
+/* common css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    text-decoration: none;
+    outline: none;
+
+}
+
+
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+/* common css */
+.col-lg-6.top-button-left a img {
+    height: auto;
+    width: 278px;
+}
+
+.col-lg-6.top-button-right a img {
+    height: auto;
+    width: 278px;
+}
+
+.descriptipn-wa.text-center p {
+    font-size: 24px;
+    color: green;
+    font-weight: 900;
+}
+
+.descriptipn-wa.text-center p a img {
+    height: auto;
+    width: 100px;
+}
